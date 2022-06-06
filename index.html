@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+  
+<body>
+  
+  
+  
+  <div class=”gallery-city-listing”>
+
+    <h1 class ="glow">Major Capitals of Europe</h1>
+
+    <form class="form-example" id="form-add" style="display:none" onsubmit="return false">
+      <h1 class="glow">Add a city</h1>
+      <div class="form-example">
+          <label for="CityName">Name of the City: </label>
+          <input type="text" name="CityName" id="CityName" required>
+      </div>
+      <div class="form-example">
+        <label id ="label">Image: </label>
+        <input type="file" name="" id="Image" accept="image/*" required>
+      </div>
+      <div class="form-example">
+          <label for="Description">Description of the city: </label>
+          <input type="text" name="Description" id="Description" required>
+      </div>
+      <button class="button" id="add" type="button">Add a city</button>
+  </form>
+
+  <button class="button" id="addButton">Add a city</button>
+
+  <form class="form-example" id="form-remove" style="display:none" onsubmit="return false">
+    <h1>Remove a city</h1>
+    <div class="form-example">
+        <label for="CityNameD">Name of the City: </label>
+        <input type="text" name="CityNameD" id="CityNameD" required>
+    </div>
+    <button class="button" id="remove" type="button">Remove a city</button>
+</form>
+
+  <button class="button" id="removeButton">Remove a city</button>
+  
+
+    
+ 
+    
+    <div class="gridcontainer" id="gridcontainer">
+      <article class="capitals-list" id="Rome">
+        <a class="capital-title" href="#">Rome</a>
+          <h4 class ="glow" contenteditable="true">Rome</h4>
+        <div class ="capital-image">
+
+            <img src="img/rome.jpg" alt="rome">
+        </div>
+        <h4 class ="glow" contenteditable="true">Rome description</h4>
+
+      </article>
+
+      <article class="capitals-list" id="Madrid">
+        <a class="capital-title" href="#">Madrid</a>
+          <h4 class ="glow" contenteditable="true">Madrid</h4>
+        <div class ="capital-image">     
+            <img src="img/madrid.jpg" alt="madrid">
+        </div>
+        <h4 class ="glow" contenteditable="true">Madrid description</h4>
+      </article>
+
+      <article class="capitals-list" id="Bruxelles">
+        <a class="capital-title" href="#">Bruxelles</a>
+          <h4 class ="glow" contenteditable="true">Bruxelles</h4>
+        <div class ="capital-image">
+            <img src="img/bruxelles.jpg" alt="bruxelles">
+        </div>
+        <h4 class ="glow" contenteditable="true">Bruxelles description</h4>
+      </article>
+
+      <article class="capitals-list" id="Berlin">
+        <a class="capital-title" href="#">Berlin</a>
+          <h4 class ="glow" contenteditable="true">Berlin</h4>
+        <div class ="capital-image">
+            <img src="img/berlin.jpg" alt="berlin">
+        </div>
+        <h4 class ="glow" contenteditable="true">Berlin description</h4>
+      </article>
+
+      <article class="capitals-list" id="London">
+        <a class="capital-title" href="#">London</a>
+          <h4 class ="glow" contenteditable="true">London</h4>
+        <div class ="capital-image">
+            <img src="img/london.jpg" alt="london">
+        </div>
+        <h4 class ="glow" contenteditable="true">London description</h4>
+      </article>
+
+      <article class="capitals-list" id="Paris">
+        <a class="capital-title" href="#">Paris</a>
+          <h4 class ="glow" contenteditable="true">Paris</h4>
+        <div class ="capital-image">
+            <img src="img/paris.jpg" alt="paris">
+        </div>
+        <h4 class ="glow" contenteditable="true">Paris description</h4>
+      </article>
+   </div>
+  <script src="script.js"></script>
+</body>
+</html>
